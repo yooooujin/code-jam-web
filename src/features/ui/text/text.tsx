@@ -14,7 +14,7 @@ interface TextProps {
     | "danger"
     | "warning"
     | "info";
-  children: React.ReactNode | string;
+  children: string;
 }
 
 const textVariants = cva("font-mono", {
@@ -59,3 +59,4 @@ const Text = (props: TextProps) => {
 Text.displayName = "Text";
 
 export { Text };
+export type { TextProps };
