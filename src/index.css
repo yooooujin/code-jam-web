@@ -6,21 +6,21 @@
   :root {
     --background: theme("colors.white");
     --foreground: theme("colors.zinc.900");
-    --primary: theme("colors.zinc.800");
+    --primary: theme("colors.lime.500");
     --primary-foreground: theme("colors.zinc.50");
-    --secondary: theme("colors.zinc.100");
-    --secondary-foreground: theme("colors.zinc.600");
-    --muted: theme("colors.zinc.100");
+    --secondary: theme("colors.lime.600");
+    --secondary-foreground: theme("colors.zinc.50");
+    --muted: theme("colors.zinc.300");
     --muted-foreground: theme("colors.zinc.500");
-    --accent: theme("colors.zinc.100");
+    --accent: theme("colors.lime.300");
     --accent-foreground: theme("colors.zinc.900");
-    --success: theme("colors.green.400");
+    --success: theme("colors.green.500");
     --success-foreground: theme("colors.zinc.50");
-    --warning: theme("colors.yellow.400");
+    --warning: theme("colors.yellow.500");
     --warning-foreground: theme("colors.zinc.50");
-    --danger: theme("colors.red.400");
+    --danger: theme("colors.red.500");
     --danger-foreground: theme("colors.zinc.50");
-    --info: theme("colors.blue.400");
+    --info: theme("colors.zinc.300");
 
     --radius: 0.5rem;
   }
