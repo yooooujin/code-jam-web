@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    /* TODO: 색상 재선정 */
     --background: theme("colors.white");
     --foreground: theme("colors.zinc.900");
     --primary: theme("colors.lime.500");
@@ -28,7 +29,7 @@
 
 @layer base {
   * {
-    @apply border-primary outline-none;
+    @apply outline-none border-primary;
   }
   body {
     @apply bg-background text-foreground;
